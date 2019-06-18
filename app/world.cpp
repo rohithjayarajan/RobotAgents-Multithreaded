@@ -84,7 +84,7 @@ void World::runAgent(char robotName_) {
         mtx.lock();
         // set temporary grid to be equal to grid
         map_temp = map_m;
-        // display the map
+        // display the grid after each thread makes changes
         display();
         // get current position of robot
         std::pair<int, int> pos_ = robotPos_m[robotName_];

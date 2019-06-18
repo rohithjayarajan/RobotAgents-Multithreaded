@@ -44,7 +44,7 @@
 #include "robot.hpp"
 #include "world.hpp"
 
-int main(int argc, char** argv) {
+int main() {
     // enter the map describing free space, obstacles and robot
     // 1: obstacle. 0: free space. "English character": robot
     std::vector<std::vector<char> > map{
